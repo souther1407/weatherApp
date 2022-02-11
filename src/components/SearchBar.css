@@ -1,0 +1,38 @@
+
+[type="submit"]{
+    border: 1px solid rgb(74, 162, 250);;
+    background: none;
+    color: rgb(74, 162, 250);;
+    padding-left: 10px;
+    padding-right: 10px;    
+   
+}
+
+[type="submit"]:hover{
+    background-color: rgb(74, 162, 250);
+    color: aliceblue;
+}
+
+[type="text"]{
+    background: rgb(59, 59, 59);
+    border: 1px solid teal;
+    color: aliceblue;
+    margin-right: 5px;
+    padding-right: 10px;
+    padding-left: 12px;
+
+}
+[type="text"]::placeholder{
+    color: rgb(174, 176, 177);
+}
+[type]{
+    display: inline-block;
+    padding-top: 4px;
+    padding-bottom: 2px;
+    border-radius: 5px;
+}
+
+
+[type="text"]:focus{
+    outline: none;
+}
